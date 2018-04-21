@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">MuTao</string>
+    <string name="shouye">首页</string>
+    <string name="faxian">发现</string>
+    <string name="wode">我的</string>
+    <string-array name="main_menu">
+        <item>飞机票</item>
+        <item>住酒店</item>
+        <item>去旅游</item>
+        <item>周边游</item>
+        <item>买门票</item>
+        <item>火车票</item>
+        <item>汽车票</item>
+        <item>领里程</item>
+    </string-array>
+    <string-array name="main_menu_second">
+        <item>汽车接送</item>
+        <item>自助船舶</item>
+        <item>豪华游轮</item>
+        <item>签证服务</item>
+        <item>订飞机票</item>
+        <item>免费WIFI</item>
+    </string-array>
+    <string-array name="find_menu">
+        <item>旅游热讯</item>
+        <item>广场动态</item>
+        <item>热点地带</item>
+        <item>边走边买</item>
+    </string-array>
+    <string-array name="find_menu_second">
+        <item>结伴而行\n一起才好玩</item>
+        <item>激励智囊\n教你玩世界</item>
+        <item>旅游直播\n分享精彩游</item>
+    </string-array>
+    <string-array name="find_hot_str1">
+        <item>温金城呀温金城呀温金城呀温金城呀温金城呀温金城呀!</item>
+        <item>深圳信息深圳信息深圳信息深圳信息深圳信息深圳信息.</item>
+        <item>旅游直播旅游直播旅游直播旅游直播旅游直播旅游直播?</item>
+    </string-array>
+    <string-array name="find_hot_str2">
+        <item>来自：广东深圳</item>
+        <item>来自：深圳龙岗</item>
+        <item>来自：龙岗深信</item>
+    </string-array>
+    <string-array name="find_hot_str3">
+        <item>10293</item>
+        <item>23019</item>
+        <item>123</item>
+    </string-array>
+    <string-array name="find_hot_str4">
+        <item>23</item>
+        <item>24</item>
+        <item>12</item>
+    </string-array>
+</resources>

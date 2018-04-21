@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wansmd.king.mutao.MainActivity"
+    android:id="@+id/activity_main"
+    >
+
+    <RelativeLayout
+        android:id="@+id/container_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BEBEBE"
+        android:layout_above="@id/rg">
+    </RelativeLayout>
+
+    <!--功能模块-->
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true">
+        <RadioButton android:id="@+id/rb1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/menu_main_icon_selector"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:text="首页"
+            android:textColor="#000000"
+            android:gravity="center"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/menu_find_icon_selector"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="发现"
+            android:textColor="#000000"
+            android:gravity="center"/>
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/menu_me_icon_selector"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="我的"
+            android:textColor="#000000"
+            android:gravity="center"/>
+    </RadioGroup>
+
+</RelativeLayout>
